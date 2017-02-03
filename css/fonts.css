@@ -1,0 +1,24 @@
+@font-face {
+	font-family: "Philosopher-Bold";
+	src: url("../fonts/Philosopher-Bold.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Philosopher-Regular";
+	src: url("../fonts/Philosopher-Regular.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Roboto-Bold";
+	src: url("../fonts/Roboto-Bold.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Roboto-Medium";
+	src: url("../fonts/Roboto-Medium.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Roboto-Regular";
+	src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+}
+@font-face {
+	font-family: "PTSerif-Web-Regular";
+	src: url("../fonts/PT_Serif-Web-Regular.ttf") format("truetype");
+}
