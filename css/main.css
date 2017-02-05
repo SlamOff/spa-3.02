@@ -17,8 +17,9 @@ button {
 	border: none;
 	background: none;
 }
-button, input, .thumbnail, .slick-slide, img, ul, li, a, a:focus, div, div:focus textarea, textarea:focus {
+button, button:focus, button:hover, input, .thumbnail, .slick-slide, img, ul, li, a, a:hover, a:focus, div, div:focus textarea, textarea:focus {
 	outline: none;
+	text-decoration: none;
 }
 .politics {
 	background-color: #fff;
@@ -45,7 +46,6 @@ button, input, .thumbnail, .slick-slide, img, ul, li, a, a:focus, div, div:focus
 	}
 }
 section {
-	text-align: center;
 	padding: 80px 0;
 	position: relative;
 	background-position: center top;
@@ -60,6 +60,8 @@ section h4 {
 }
 section h3 {
 	font: 4rem "Philosopher-Bold", sans-serif;
+	line-height: 5rem;
+	text-align: center;
 	color: #4d413d;
 }
 ul {
@@ -192,6 +194,7 @@ h1{
 	font: 7rem "Philosopher-Bold", sans-serif;
 	color: #4d413d;
 	line-height: 8rem;
+	margin-bottom: 5rem;
 }
 h2 {
 	color: #4d413d;
@@ -199,7 +202,11 @@ h2 {
 	letter-spacing: .025em;
 	border-top: 1px solid #4d413d;
 	border-bottom: 1px solid #4d413d;
-	padding: 2rem 0;
+	padding: 2.35rem 0;
+	margin-bottom: 8rem;
+}
+.top_btn {
+	padding-top: 1rem;
 }
 .top_btn button {
 	border: 2px solid #4c3c27;
@@ -211,6 +218,7 @@ h2 {
 	font: 1.2rem "Roboto-Medium", sans-serif;
 	padding: 21px 0;
 	transition: all ease .3s;
+	letter-spacing: 2px;
 }
 .top_btn button:hover {
 	background-color: #4b3b27;
@@ -253,16 +261,21 @@ h2 {
 .spec {
 	font: 1.6rem "Roboto-Medium", sans-serif;
 	text-decoration: underline;
+	padding-top: 2.8rem;
 }
 .top_phone {
-	font: 1.8rem "Philosopher-Regular", sans-serif;	
+	font: 1.8rem "Philosopher-Regular", sans-serif;
+	padding-top: 3rem;
+	float: right;
 }
 .crystal {
 	background-image: url(../img/crystal_bg.jpg);
 	min-height: 75rem;
+	text-align: center;
 }
 .crystal h3 {
-	margin-bottom: 15rem;
+	margin-bottom: 11.5rem;
+	margin-top: 4.2rem;
 }
 .crystal_wrapper {
 	display: -ms-flexbox;
@@ -272,15 +285,217 @@ h2 {
 	display: -o-flex;
 	display: flex;
 	justify-content: space-between;
-	padding: 0 53px 0 44px;
+	padding: 0 17px 0 48px;
 }
 .crystal_wrapper p {
 	font: 2rem "Roboto-Medium", sans-serif;
 	color: #4d413d;
 }
 .crystal_wrapper  img {
-	margin-bottom: 7.5rem;
+	margin-bottom: 6.5rem;
 }
 .crystal_wrapper .crystal_item:first-of-type img  {
-	margin-bottom: 4.85rem;
+	margin-bottom: 4rem;
+}
+.about {
+	background-image: url(../img/about_bg.jpg);
+	min-height: 650px;
+	margin-top: 2px;
+}
+.about .col-md-10 {
+	padding: 0;
+}
+.about h3 {
+	margin-bottom: 15rem;
+	margin-top: 0;
+}
+.about_slider_wrapper {
+	position: relative;
+}
+.about_slider .slick-track {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+.about_prev, .about_next {
+	width: 40px;
+	height: 22px;
+	position: absolute;
+	cursor: pointer;
+	top: 46%;
+}
+.about_prev {
+	background-image: url(../img/prev.png);
+	left: -75px;
+}
+.about_next {
+	background-image: url(../img/next.png);
+	right: -75px;
+}
+.about_item {
+	border: solid 1px #8c8c8c;
+	background-color: rgba(255,255,255,.7);
+	position: relative;
+	width: 170px!important;
+	height: 170px!important;
+}
+.about_item img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+.rome {
+	background-image: url(../img/rome_bg.jpg);
+	min-height: 900px;
+	padding-bottom: 0;
+}
+section.service h3 {
+	text-align: left;
+}
+.rome h3 {
+	margin-top: .7rem;
+}
+.service h6 {
+	font: 2rem "Roboto-Bold", sans-serif;
+	line-height: 5rem;
+	color: #4d413d;
+	position: relative;
+	margin-bottom: 1.4rem;
+}
+.service h5 {
+	font: 2.4rem "Roboto-Bold", sans-serif;
+	line-height: 2.8rem;
+	color: #2b2b2b;
+	margin-bottom: 2.5rem;
+}
+.service p {
+	font: 1.8rem "Roboto-Regular", sans-serif;
+	line-height: 2.8rem;
+	color: #2b2b2b;
+	margin-bottom: 2.8rem;
+}
+.service ul {
+	padding-left: 15px;
+	margin-bottom: 0;
+}
+.service button {
+	margin-top: 70px;
+}
+.service ul li {
+	list-style-type: disc;
+	font: 1.2rem "Roboto-Regular", sans-serif;
+	color: #2b2b2b;
+}
+.service ul li span {
+	font-size: 1.8rem;
+	line-height: 2.8rem;
+	position: relative;
+	top: 3px;
+}
+.service button.btn_white {
+	margin-right: 30px;
+}
+.rome button {
+	margin-top: 40px;
+}
+.hammam {
+	min-height: 900px;
+	background-image: url(../img/hammam_bg.jpg);
+	padding-bottom: 0;
+}
+.vatsu {
+	background-image: url(../img/vatsu_bg.jpg);
+	min-height: 900px;
+	padding-bottom: 0;
+}
+.vatsu p:last-of-type {
+	margin-bottom: 0;
+}
+.massage {
+	min-height: 900px;
+	padding-bottom: 0;
+	background-image: url(../img/massage_bg.jpg);
+	padding-top: 6.7rem;
+}
+.massage p {
+	margin-bottom: 0;
+}
+.massage span {
+	line-height: 2.8rem;
+	font: 1.8rem "Roboto-Bold", sans-serif;
+	color: #2b2b2b;
+}
+.massage p:first-of-type {
+	margin-bottom: 28px;
+}
+section.program h3, section.beauty h3 {
+	text-align: center;
+}
+.program {
+	background-image: url(../img/program_bg.png);
+	padding-top: 6.7rem;
+}
+.beauty {
+	background-image: url(../img/beauty_bg.png);
+}
+.program h6, .beauty h6 {
+	color: #2b2b2b;
+	margin: 0 0 1.8rem;
+	text-align: center;
+}
+.program p, .beauty p {
+	text-align: center;
+	margin-top: 3rem;
+	margin-bottom: 2.5rem;
+}
+.program img, .beauty img {
+	margin: 0 auto;
+	display: block;
+}
+.program span, .beauty span {
+	color: #744f30;
+	font: 2rem "Roboto-Bold", sans-serif;
+	display: block;
+	text-align: center;
+	margin-bottom: 2.5rem;
+}
+.program button, .beauty button {
+	display: block;
+	margin: 0 auto;
+}
+.program h3, .beauty h3 {
+	margin-bottom: 6.6rem;
+}
+.program h6 span, .beauty h6 span {
+	font: 1.4rem "Roboto-Regular", sans-serif;
+	color: #2b2b2b;
+	position: absolute;
+	display: block;
+	text-align: center;
+	width: 100%;
+	top: 36px;
+}
+.program_item, .beauty_item {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #fcf9f4;
+	border: solid 1px #aa9b8f;
+	padding-top: 1.8rem;
+	padding-bottom: 4rem;
+}
+.program .row, .beauty .row {
+	margin-bottom: 3rem;
+}
+.help_p {
+	margin: 0!important;
+	opacity: 0;
 }

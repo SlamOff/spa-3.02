@@ -27,17 +27,14 @@ $(document).ready(function() {
 
 
 
-	/*
+	
 	//slick carousel
-	$('.photo_carousel').slick({
+	$('.about_slider').slick({
 		slidesToShow: 5,
 		slidesToScroll: 1,
-		asNavFor: '.photo_carousel_for',
-		focusOnSelect: true,
-		appendDots: '.review .nav_slider',
-		customPaging: function(slider, i) {
-			return '<div class="dot"></div>';
-		},
+		prevArrow: '.about_prev',
+		nextArrow: '.about_next',
+		dots: false,
 		responsive: [
 			{
 			breakpoint: 992,
@@ -46,7 +43,7 @@ $(document).ready(function() {
 			}
 			}
 		]
-	});*/
+	});
 	/*
 	// photo magnific gallery
 	$('.photo_popup').magnificPopup({
