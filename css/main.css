@@ -116,61 +116,86 @@ footer span {
 	padding-top: 20px;
 }
 .form_wrapper {
-	padding: 40px;
-	background-color: #01458e;
-	color: #fff;
-	max-width: 360px;
-	padding: 40px;
+	padding: 48px 48px 80px;
+	max-width: 370px;
 	margin: auto;
 	text-align: center;
 	position: relative;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	border-radius: 3px;
+	background-color: #fff7f1;
+	-webkit-box-shadow: 0 3px 5px rgba(102,72,52,.27);
+	-moz-box-shadow: 0 3px 5px rgba(102,72,52,.27);
+	-o-box-shadow: 0 3px 5px rgba(102,72,52,.27);
+	-ms-box-shadow: 0 3px 5px rgba(102,72,52,.27);
+	box-shadow: 0 3px 5px rgba(102,72,52,.27);
+	border: solid 2px #fff;
 }
 .form_wrapper h6 {
-
+	font: 3rem "Philosopher-Bold", sans-serif;
+	line-height: 3.4rem;
+	color: #664834;
 }
 .form_wrapper p {
-	
+	font: 1.8rem "PTSerif-Web-Regular", sans-serif;
+	line-height: 2.8rem;
+	color: #664834;
 }
 label.error {
 	color: red;
 }
 .form input::-webkit-input-placeholder {
-	
+	color: #664834;
+	font: 1.6rem "PTSerif-Web-Regular", sans-serif;
 }
 .form input::-moz-placeholder {
-	
+	color: #664834;
+	font: 1.6rem "PTSerif-Web-Regular", sans-serif;
 }
 .form input:-ms-input-placeholder {
-	
+	color: #664834;
+	font: 1.6rem "PTSerif-Web-Regular", sans-serif;
 }
 .form input:-moz-placeholder {
-	
+	color: #664834;
+	font: 1.6rem "PTSerif-Web-Regular", sans-serif;
 }
 .form textarea::-webkit-input-placeholder {
-	
+	color: #664834;
+	font: 1.6rem "PTSerif-Web-Regular", sans-serif;
 }
 .form textarea::-moz-placeholder {
-	
+	color: #664834;
+	font: 1.6rem "PTSerif-Web-Regular", sans-serif;
 }
 .form textarea:-ms-input-placeholder {
-	
+	color: #664834;
+	font: 1.6rem "PTSerif-Web-Regular", sans-serif;
 }
 .form textarea:-moz-placeholder {
-	
+	color: #664834;
+	font: 1.6rem "PTSerif-Web-Regular", sans-serif;
 }
 .form input {
 	width: 100%;
-	-webkit-border-radius: 4px;
-	-ms-border-radius: 4px;
-	-moz-border-radius: 4px;
-	-o-border-radius: 4px;
-	border-radius: 4px;
-	margin-top: 20px;
-	color: #000;
+	-webkit-border-radius: 28px;
+	-moz-border-radius: 28px;
+	-o-border-radius: 28px;
+	-ms-border-radius: 28px;
+	border-radius: 28px;
+	background-color: #fff;
+	border: solid 1px #fff;
+	padding: 16px 0;
+	text-indent: 3rem;
+	margin-top: 1rem;
 }
 .form button {
 	width: 100%;
 	max-width: 370px;
+	margin-top: 1.4rem;
 }
 header {
 	background-image: url(../img/header_bg.jpg);
@@ -510,6 +535,9 @@ section.program h3, section.beauty h3 {
 }
 .cert {
 	min-height: 760px;
+	background-image: url(../img/cert_bg.jpg);
+	padding-bottom: 0;
+	padding-top: 110px;
 }
 .cert h3 {
 	text-align: left;
@@ -527,7 +555,12 @@ section.program h3, section.beauty h3 {
 	color: #2b2b2b;
 	margin: 4.5rem 0;
 }
-.cert p {
+.cert .left_cert p {
 	font: 2rem "Roboto-Medium", sans-serif;
 	color: #2b2b2b;
+}
+.cert img {
+	position: absolute;
+	left: -417px;
+	top: -203px;
 }

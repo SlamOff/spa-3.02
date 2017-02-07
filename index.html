@@ -1,6 +1,83 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+<!--
+% request from 77.78.104.120
+% This is the Ukrainian Whois query server #I.
+% The Whois is subject to Terms of use
+% See https://hostmaster.ua/services/
+%
+
+domain: crystalspa.com.ua
+dom-public: NO
+registrant: ivo9800
+admin-c: ivo9800
+tech-c: ivo9800
+mnt-by: ua.gransy
+nserver: ns5.gransy.com
+nserver: ns4.gransy.com
+nserver: ns3.gransy.com
+nserver: ns.gransy.com
+status: ok
+created: 2017-02-04 23:58:13+02
+expires: 2018-02-04 23:58:13+02
+source: UAEPP
+
+% Registrar:
+% ==========
+registrar: ua.gransy
+organization: Gransy s.r.o.
+organization-loc: Gransy s.r.o.
+url: http://regtons.com
+city: Prague
+country: CZ
+source: UAEPP
+
+% Registrant:
+% ===========
+contact-id: ivo9800
+person: not published
+e-mail: not published
+address: not published
+phone: not published
+mnt-by: ua.gransy
+status: ok
+status: linked
+created: 2017-02-04 23:58:10+02
+source: UAEPP
+
+
+% Administrative Contacts:
+% =======================
+contact-id: ivo9800
+person: not published
+e-mail: not published
+address: not published
+phone: not published
+mnt-by: ua.gransy
+status: ok
+status: linked
+created: 2017-02-04 23:58:10+02
+source: UAEPP
+
+
+% Technical Contacts:
+% ===================
+contact-id: ivo9800
+person: not published
+e-mail: not published
+address: not published
+phone: not published
+mnt-by: ua.gransy
+status: ok
+status: linked
+created: 2017-02-04 23:58:10+02
+source: UAEPP
+
+
+
+% Query time: 40 msec
+-->
 	<meta charset="utf-8" />
 	<title>DD Studio</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -46,17 +123,17 @@
 		</div>
 	</div>
 	<div class="hidden">
-		<div class="form_popup" id="">
+		<div class="form_wrapper" id="">
 			<h6>Заполните форму</h6>
 			<p>и наш менеджер перезвонит Вам в течение 5 минут, чтобы ответить на  все Ваши вопросы</p>
 			<form method="post" class="form" id="" action="mail.php">
-				<input type="hidden" name="project_name" value="Alfa filter" />
+				<input type="hidden" name="project_name" value="Crystal Spa" />
 				<input type="hidden" name="form_subject" value="Заявка с лэндинга" />
 				<input type="hidden" name="whatform" value="Форма - Задать вопрос специалисту" />
-				<input type="text" name="name" placeholder="ИМЯ" />
-				<input type="tel" name="phone" class="phone" placeholder="ТЕЛЕФОН" />
-				<input type="email" name="email" placeholder="E-MAIL" />
-				<button>Задать вопрос специалисту</button>
+				<input type="text" name="name" placeholder="Имя" />
+				<input type="email" name="email" placeholder="E-mail" />
+				<input type="tel" name="phone" class="phone" placeholder="Телефон" />
+				<button type="submit">Задать вопрос специалисту</button>
 			</form>
 		</div>
 	</div>
@@ -394,11 +471,27 @@
 	<section class="cert">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6">
+				<div class="col-md-6 left_cert">
 					<h3>Позаботьтесь</h3>
 					<h4>о здоровье и красоте <br>своих близких!</h4>
 					<h5>Закажите подарочный <br>сертификат на сумму <br>1000, 2000 или 3000 грн.</h5>
 					<p>Доставим сертификат в указанное <br>Вами место или Вы можете <br>распечатать его электронну версию.</p>
+				</div>
+				<div class="col-md-5 col-md-offset-1 col-lg-4 col-lg-offset-2">
+					<img src="img/cert.png" alt="">
+					<div class="form_wrapper" id="certForm">
+						<h6>Заполните форму</h6>
+						<p>чтобы заказать подарочный сертификат для своих близких!</p>
+						<form method="post" class="form" id="" action="mail.php">
+							<input type="hidden" name="project_name" value="Crystal Spa" />
+							<input type="hidden" name="form_subject" value="Заявка с лэндинга" />
+							<input type="hidden" name="whatform" value="Форма - Задать вопрос специалисту" />
+							<input type="text" name="name" placeholder="Имя" />
+							<input type="email" name="email" placeholder="E-mail" />
+							<input type="tel" name="phone" class="phone" placeholder="Телефон" />
+							<button class="btn_brown" type="submit">Заказать сертификат</button>
+						</form>
+					</div>
 				</div>
 			</div>
 		</div>
