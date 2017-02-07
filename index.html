@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+
+<!--
+	1) копирайт
+	2) фотки
+	3) Отзывы
+	4) Хостинг
+	5) Почта
+-->
+
+
 <!--
 % request from 77.78.104.120
 % This is the Ukrainian Whois query server #I.
@@ -79,7 +89,7 @@ source: UAEPP
 % Query time: 40 msec
 -->
 	<meta charset="utf-8" />
-	<title>DD Studio</title>
+	<title>Crystal Spa</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
@@ -123,17 +133,332 @@ source: UAEPP
 		</div>
 	</div>
 	<div class="hidden">
-		<div class="form_wrapper" id="">
+		<div class="form_wrapper" id="topFormWrapper">
 			<h6>Заполните форму</h6>
-			<p>и наш менеджер перезвонит Вам в течение 5 минут, чтобы ответить на  все Ваши вопросы</p>
-			<form method="post" class="form" id="" action="mail.php">
+			<p>и наш менеджер перезвонит Вам в течение 15 минут, чтобы ответить на все Ваши вопросы</p>
+			<form method="post" class="form" id="topForm" action="mail.php">
 				<input type="hidden" name="project_name" value="Crystal Spa" />
 				<input type="hidden" name="form_subject" value="Заявка с лэндинга" />
-				<input type="hidden" name="whatform" value="Форма - Задать вопрос специалисту" />
-				<input type="text" name="name" placeholder="Имя" />
-				<input type="email" name="email" placeholder="E-mail" />
-				<input type="tel" name="phone" class="phone" placeholder="Телефон" />
-				<button type="submit">Задать вопрос специалисту</button>
+				<input type="hidden" name="whatform" value="Форма - Заказать звонок" />
+				<label class="border_label"><input type="text" name="name" placeholder="Имя" /></label>
+				<label class="border_label"><input type="email" name="email" placeholder="E-mail" /></label>
+				<label class="border_label"><input type="tel" name="phone" class="phone" placeholder="Телефон" /></label>
+				<button class="btn_brown" type="submit">Заказать звонок</button>
+			</form>
+		</div>
+	</div>
+	<div class="hidden">
+		<div class="form_wrapper" id="mainFormWrapper1">
+			<h6>Заполните форму</h6>
+			<p>и наш менеджер перезвонит Вам в течение 15 минут и поможет подобрать Spa-услугу</p>
+			<form method="post" class="form" id="mainForm1" action="mail.php">
+				<input type="hidden" name="project_name" value="Crystal Spa" />
+				<input type="hidden" name="form_subject" value="Заявка с лэндинга" />
+				<input type="hidden" name="whatform" value="Форма - Подобрать Spa-услугу" />
+				<label class="border_label"><input type="text" name="name" placeholder="Имя" /></label>
+				<label class="border_label"><input type="email" name="email" placeholder="E-mail" /></label>
+				<label class="border_label"><input type="tel" name="phone" class="phone" placeholder="Телефон" /></label>
+				<button class="btn_brown" type="submit">Подобрать Spa-услугу</button>
+			</form>
+		</div>
+	</div>
+	<div class="hidden">
+		<div class="form_wrapper" id="mainFormWrapper2">
+			<h6>Заполните форму</h6>
+			<p>и наш менеджер перезвонит Вам в течение 15 минут, чтобы ответить на все Ваши вопросы</p>
+			<form method="post" class="form" id="mainForm2" action="mail.php">
+				<input type="hidden" name="project_name" value="Crystal Spa" />
+				<input type="hidden" name="form_subject" value="Заявка с лэндинга" />
+				<input type="hidden" name="whatform" value="Форма - Получить консультацию" />
+				<label class="border_label"><input type="text" name="name" placeholder="Имя" /></label>
+				<label class="border_label"><input type="email" name="email" placeholder="E-mail" /></label>
+				<label class="border_label"><input type="tel" name="phone" class="phone" placeholder="Телефон" /></label>
+				<button class="btn_brown" type="submit">Получить консультацию</button>
+			</form>
+		</div>
+	</div>
+	<div class="hidden">
+		<div class="form_wrapper" id="romeFormWrapper1">
+			<h6>Заполните форму</h6>
+			<p>и наш менеджер перезвонит Вам в течение 15 минут, чтобы ответить на все Ваши вопросы</p>
+			<form method="post" class="form" id="romeForm1" action="mail.php">
+				<input type="hidden" name="project_name" value="Crystal Spa" />
+				<input type="hidden" name="form_subject" value="Заявка с лэндинга" />
+				<input type="hidden" name="whatform" value="Форма - Узнать подробнее (Римские термы)" />
+				<label class="border_label"><input type="text" name="name" placeholder="Имя" /></label>
+				<label class="border_label"><input type="email" name="email" placeholder="E-mail" /></label>
+				<label class="border_label"><input type="tel" name="phone" class="phone" placeholder="Телефон" /></label>
+				<button class="btn_brown" type="submit">Узнать подробнее</button>
+			</form>
+		</div>
+	</div>
+	<div class="hidden">
+		<div class="form_wrapper" id="hammamFormWrapper1">
+			<h6>Заполните форму</h6>
+			<p>и наш менеджер перезвонит Вам в течение 15 минут, чтобы ответить на все Ваши вопросы</p>
+			<form method="post" class="form" id="hammamForm1" action="mail.php">
+				<input type="hidden" name="project_name" value="Crystal Spa" />
+				<input type="hidden" name="form_subject" value="Заявка с лэндинга" />
+				<input type="hidden" name="whatform" value="Форма - Узнать подробнее (Хаммам)" />
+				<label class="border_label"><input type="text" name="name" placeholder="Имя" /></label>
+				<label class="border_label"><input type="email" name="email" placeholder="E-mail" /></label>
+				<label class="border_label"><input type="tel" name="phone" class="phone" placeholder="Телефон" /></label>
+				<button class="btn_brown" type="submit">Узнать подробнее</button>
+			</form>
+		</div>
+	</div>
+	<div class="hidden">
+		<div class="form_wrapper" id="vatsuFormWrapper1">
+			<h6>Заполните форму</h6>
+			<p>и наш менеджер перезвонит Вам в течение 15 минут, чтобы ответить на все Ваши вопросы</p>
+			<form method="post" class="form" id="vatsuForm1" action="mail.php">
+				<input type="hidden" name="project_name" value="Crystal Spa" />
+				<input type="hidden" name="form_subject" value="Заявка с лэндинга" />
+				<input type="hidden" name="whatform" value="Форма - Узнать подробнее (Ватсу)" />
+				<label class="border_label"><input type="text" name="name" placeholder="Имя" /></label>
+				<label class="border_label"><input type="email" name="email" placeholder="E-mail" /></label>
+				<label class="border_label"><input type="tel" name="phone" class="phone" placeholder="Телефон" /></label>
+				<button class="btn_brown" type="submit">Узнать подробнее</button>
+			</form>
+		</div>
+	</div>
+	<div class="hidden">
+		<div class="form_wrapper" id="massageFormWrapper1">
+			<h6>Заполните форму</h6>
+			<p>и наш менеджер перезвонит Вам в течение 15 минут, чтобы ответить на все Ваши вопросы</p>
+			<form method="post" class="form" id="massageForm1" action="mail.php">
+				<input type="hidden" name="project_name" value="Crystal Spa" />
+				<input type="hidden" name="form_subject" value="Заявка с лэндинга" />
+				<input type="hidden" name="whatform" value="Форма - Узнать подробнее (Массаж)" />
+				<label class="border_label"><input type="text" name="name" placeholder="Имя" /></label>
+				<label class="border_label"><input type="email" name="email" placeholder="E-mail" /></label>
+				<label class="border_label"><input type="tel" name="phone" class="phone" placeholder="Телефон" /></label>
+				<button class="btn_brown" type="submit">Узнать подробнее</button>
+			</form>
+		</div>
+	</div>
+	<div class="hidden">
+		<div class="form_wrapper" id="romeFormWrapper2">
+			<h6>Заполните форму</h6>
+			<p>и наш менеджер перезвонит Вам в течение 15 минут, чтобы ответить на все Ваши вопросы</p>
+			<form method="post" class="form" id="romeForm2" action="mail.php">
+				<input type="hidden" name="project_name" value="Crystal Spa" />
+				<input type="hidden" name="form_subject" value="Заявка с лэндинга" />
+				<input type="hidden" name="whatform" value="Форма - Акционное предложение (Римские термы)" />
+				<label class="border_label"><input type="text" name="name" placeholder="Имя" /></label>
+				<label class="border_label"><input type="email" name="email" placeholder="E-mail" /></label>
+				<label class="border_label"><input type="tel" name="phone" class="phone" placeholder="Телефон" /></label>
+				<button class="btn_brown" type="submit">Акционное предложение</button>
+			</form>
+		</div>
+	</div>
+	<div class="hidden">
+		<div class="form_wrapper" id="hammamFormWrapper2">
+			<h6>Заполните форму</h6>
+			<p>и наш менеджер перезвонит Вам в течение 15 минут, чтобы ответить на все Ваши вопросы</p>
+			<form method="post" class="form" id="hammamForm2" action="mail.php">
+				<input type="hidden" name="project_name" value="Crystal Spa" />
+				<input type="hidden" name="form_subject" value="Заявка с лэндинга" />
+				<input type="hidden" name="whatform" value="Форма - Заказать услугу (Хаммам)" />
+				<label class="border_label"><input type="text" name="name" placeholder="Имя" /></label>
+				<label class="border_label"><input type="email" name="email" placeholder="E-mail" /></label>
+				<label class="border_label"><input type="tel" name="phone" class="phone" placeholder="Телефон" /></label>
+				<button class="btn_brown" type="submit">Заказать услугу</button>
+			</form>
+		</div>
+	</div>
+	<div class="hidden">
+		<div class="form_wrapper" id="vatsuFormWrapper2">
+			<h6>Заполните форму</h6>
+			<p>и наш менеджер перезвонит Вам в течение 15 минут, чтобы ответить на все Ваши вопросы</p>
+			<form method="post" class="form" id="vatsuForm2" action="mail.php">
+				<input type="hidden" name="project_name" value="Crystal Spa" />
+				<input type="hidden" name="form_subject" value="Заявка с лэндинга" />
+				<input type="hidden" name="whatform" value="Форма - Акционное предложение (Ватсу)" />
+				<label class="border_label"><input type="text" name="name" placeholder="Имя" /></label>
+				<label class="border_label"><input type="email" name="email" placeholder="E-mail" /></label>
+				<label class="border_label"><input type="tel" name="phone" class="phone" placeholder="Телефон" /></label>
+				<button class="btn_brown" type="submit">Акционное предложение</button>
+			</form>
+		</div>
+	</div>
+	<div class="hidden">
+		<div class="form_wrapper" id="massageFormWrapper2">
+			<h6>Заполните форму</h6>
+			<p>и наш менеджер перезвонит Вам в течение 15 минут, чтобы ответить на все Ваши вопросы</p>
+			<form method="post" class="form" id="massageForm2" action="mail.php">
+				<input type="hidden" name="project_name" value="Crystal Spa" />
+				<input type="hidden" name="form_subject" value="Заявка с лэндинга" />
+				<input type="hidden" name="whatform" value="Форма - Заказать услугу (Массаж)" />
+				<label class="border_label"><input type="text" name="name" placeholder="Имя" /></label>
+				<label class="border_label"><input type="email" name="email" placeholder="E-mail" /></label>
+				<label class="border_label"><input type="tel" name="phone" class="phone" placeholder="Телефон" /></label>
+				<button class="btn_brown" type="submit">Заказать услугу</button>
+			</form>
+		</div>
+	</div>
+	<div class="hidden">
+		<div class="form_wrapper" id="romeFormWrapper3">
+			<h6>Заполните форму</h6>
+			<p>и наш менеджер перезвонит Вам в течение 15 минут, чтобы забронировать выбранную Вами услугу</p>
+			<form method="post" class="form" id="romeForm3" action="mail.php">
+				<input type="hidden" name="project_name" value="Crystal Spa" />
+				<input type="hidden" name="form_subject" value="Заявка с лэндинга" />
+				<input type="hidden" name="whatform" value="Форма - Забронировать время (Наследие Рима)" />
+				<label class="border_label"><input type="text" name="name" placeholder="Имя" /></label>
+				<label class="border_label"><input type="email" name="email" placeholder="E-mail" /></label>
+				<label class="border_label"><input type="tel" name="phone" class="phone" placeholder="Телефон" /></label>
+				<button class="btn_brown" type="submit">Забронировать время</button>
+			</form>
+		</div>
+	</div>
+	<div class="hidden">
+		<div class="form_wrapper" id="paradiseFormWrapper">
+			<h6>Заполните форму</h6>
+			<p>и наш менеджер перезвонит Вам в течение 15 минут, чтобы забронировать выбранную Вами услугу</p>
+			<form method="post" class="form" id="paradiseForm" action="mail.php">
+				<input type="hidden" name="project_name" value="Crystal Spa" />
+				<input type="hidden" name="form_subject" value="Заявка с лэндинга" />
+				<input type="hidden" name="whatform" value="Форма - Забронировать время (Рай на двоих)" />
+				<label class="border_label"><input type="text" name="name" placeholder="Имя" /></label>
+				<label class="border_label"><input type="email" name="email" placeholder="E-mail" /></label>
+				<label class="border_label"><input type="tel" name="phone" class="phone" placeholder="Телефон" /></label>
+				<button class="btn_brown" type="submit">Забронировать время</button>
+			</form>
+		</div>
+	</div>
+	<div class="hidden">
+		<div class="form_wrapper" id="pregnantFormWrapper">
+			<h6>Заполните форму</h6>
+			<p>и наш менеджер перезвонит Вам в течение 15 минут, чтобы забронировать выбранную Вами услугу</p>
+			<form method="post" class="form" id="pregnantForm" action="mail.php">
+				<input type="hidden" name="project_name" value="Crystal Spa" />
+				<input type="hidden" name="form_subject" value="Заявка с лэндинга" />
+				<input type="hidden" name="whatform" value="Форма - Забронировать время (В ожидании ангела)" />
+				<label class="border_label"><input type="text" name="name" placeholder="Имя" /></label>
+				<label class="border_label"><input type="email" name="email" placeholder="E-mail" /></label>
+				<label class="border_label"><input type="tel" name="phone" class="phone" placeholder="Телефон" /></label>
+				<button class="btn_brown" type="submit">Забронировать время</button>
+			</form>
+		</div>
+	</div>
+	<div class="hidden">
+		<div class="form_wrapper" id="spaFormWrapper">
+			<h6>Заполните форму</h6>
+			<p>и наш менеджер перезвонит Вам в течение 15 минут, чтобы забронировать выбранную Вами услугу</p>
+			<form method="post" class="form" id="spaForm" action="mail.php">
+				<input type="hidden" name="project_name" value="Crystal Spa" />
+				<input type="hidden" name="form_subject" value="Заявка с лэндинга" />
+				<input type="hidden" name="whatform" value="Форма - Забронировать время (СПА-день)" />
+				<label class="border_label"><input type="text" name="name" placeholder="Имя" /></label>
+				<label class="border_label"><input type="email" name="email" placeholder="E-mail" /></label>
+				<label class="border_label"><input type="tel" name="phone" class="phone" placeholder="Телефон" /></label>
+				<button class="btn_brown" type="submit">Забронировать время</button>
+			</form>
+		</div>
+	</div>
+	<div class="hidden">
+		<div class="form_wrapper" id="nirvanaFormWrapper">
+			<h6>Заполните форму</h6>
+			<p>и наш менеджер перезвонит Вам в течение 15 минут, чтобы забронировать выбранную Вами услугу</p>
+			<form method="post" class="form" id="nirvanaForm" action="mail.php">
+				<input type="hidden" name="project_name" value="Crystal Spa" />
+				<input type="hidden" name="form_subject" value="Заявка с лэндинга" />
+				<input type="hidden" name="whatform" value="Форма - Забронировать время (Наследие Рима)" />
+				<label class="border_label"><input type="text" name="name" placeholder="Имя" /></label>
+				<label class="border_label"><input type="email" name="email" placeholder="E-mail" /></label>
+				<label class="border_label"><input type="tel" name="phone" class="phone" placeholder="Телефон" /></label>
+				<button class="btn_brown" type="submit">Забронировать время</button>
+			</form>
+		</div>
+	</div>
+	<div class="hidden">
+		<div class="form_wrapper" id="idealFormWrapper">
+			<h6>Заполните форму</h6>
+			<p>и наш менеджер перезвонит Вам в течение 15 минут, чтобы забронировать выбранную Вами услугу</p>
+			<form method="post" class="form" id="idealForm" action="mail.php">
+				<input type="hidden" name="project_name" value="Crystal Spa" />
+				<input type="hidden" name="form_subject" value="Заявка с лэндинга" />
+				<input type="hidden" name="whatform" value="Форма - Забронировать время (Ты совершенство)" />
+				<label class="border_label"><input type="text" name="name" placeholder="Имя" /></label>
+				<label class="border_label"><input type="email" name="email" placeholder="E-mail" /></label>
+				<label class="border_label"><input type="tel" name="phone" class="phone" placeholder="Телефон" /></label>
+				<button class="btn_brown" type="submit">Забронировать время</button>
+			</form>
+		</div>
+	</div>
+	<div class="hidden">
+		<div class="form_wrapper" id="cosmoFormWrapper">
+			<h6>Заполните форму</h6>
+			<p>и наш менеджер перезвонит Вам в течение 15 минут, чтобы забронировать выбранную Вами услугу</p>
+			<form method="post" class="form" id="cosmoForm" action="mail.php">
+				<input type="hidden" name="project_name" value="Crystal Spa" />
+				<input type="hidden" name="form_subject" value="Заявка с лэндинга" />
+				<input type="hidden" name="whatform" value="Форма - Забронировать время (Косметология)" />
+				<label class="border_label"><input type="text" name="name" placeholder="Имя" /></label>
+				<label class="border_label"><input type="email" name="email" placeholder="E-mail" /></label>
+				<label class="border_label"><input type="tel" name="phone" class="phone" placeholder="Телефон" /></label>
+				<button class="btn_brown" type="submit">Забронировать время</button>
+			</form>
+		</div>
+	</div>
+	<div class="hidden">
+		<div class="form_wrapper" id="nailsFormWrapper">
+			<h6>Заполните форму</h6>
+			<p>и наш менеджер перезвонит Вам в течение 15 минут, чтобы забронировать выбранную Вами услугу</p>
+			<form method="post" class="form" id="nailsForm" action="mail.php">
+				<input type="hidden" name="project_name" value="Crystal Spa" />
+				<input type="hidden" name="form_subject" value="Заявка с лэндинга" />
+				<input type="hidden" name="whatform" value="Форма - Забронировать время (Ногтевой сервис)" />
+				<label class="border_label"><input type="text" name="name" placeholder="Имя" /></label>
+				<label class="border_label"><input type="email" name="email" placeholder="E-mail" /></label>
+				<label class="border_label"><input type="tel" name="phone" class="phone" placeholder="Телефон" /></label>
+				<button class="btn_brown" type="submit">Забронировать время</button>
+			</form>
+		</div>
+	</div>
+	<div class="hidden">
+		<div class="form_wrapper" id="styleFormWrapper">
+			<h6>Заполните форму</h6>
+			<p>и наш менеджер перезвонит Вам в течение 15 минут, чтобы забронировать выбранную Вами услугу</p>
+			<form method="post" class="form" id="styleForm" action="mail.php">
+				<input type="hidden" name="project_name" value="Crystal Spa" />
+				<input type="hidden" name="form_subject" value="Заявка с лэндинга" />
+				<input type="hidden" name="whatform" value="Форма - Забронировать время (Услуги стилиста)" />
+				<label class="border_label"><input type="text" name="name" placeholder="Имя" /></label>
+				<label class="border_label"><input type="email" name="email" placeholder="E-mail" /></label>
+				<label class="border_label"><input type="tel" name="phone" class="phone" placeholder="Телефон" /></label>
+				<button class="btn_brown" type="submit">Забронировать время</button>
+			</form>
+		</div>
+	</div>
+	<div class="hidden">
+		<div class="form_wrapper" id="correctFormWrapper">
+			<h6>Заполните форму</h6>
+			<p>и наш менеджер перезвонит Вам в течение 15 минут, чтобы забронировать выбранную Вами услугу</p>
+			<form method="post" class="form" id="correctForm" action="mail.php">
+				<input type="hidden" name="project_name" value="Crystal Spa" />
+				<input type="hidden" name="form_subject" value="Заявка с лэндинга" />
+				<input type="hidden" name="whatform" value="Форма - Забронировать время (Коррекция фигуры)" />
+				<label class="border_label"><input type="text" name="name" placeholder="Имя" /></label>
+				<label class="border_label"><input type="email" name="email" placeholder="E-mail" /></label>
+				<label class="border_label"><input type="tel" name="phone" class="phone" placeholder="Телефон" /></label>
+				<button class="btn_brown" type="submit">Забронировать время</button>
+			</form>
+		</div>
+	</div>
+	<div class="hidden">
+		<div class="form_wrapper" id="makeupFormWrapper">
+			<h6>Заполните форму</h6>
+			<p>и наш менеджер перезвонит Вам в течение 15 минут, чтобы забронировать выбранную Вами услугу</p>
+			<form method="post" class="form" id="makeupForm" action="mail.php">
+				<input type="hidden" name="project_name" value="Crystal Spa" />
+				<input type="hidden" name="form_subject" value="Заявка с лэндинга" />
+				<input type="hidden" name="whatform" value="Форма - Забронировать время (Макияж)" />
+				<label class="border_label"><input type="text" name="name" placeholder="Имя" /></label>
+				<label class="border_label"><input type="email" name="email" placeholder="E-mail" /></label>
+				<label class="border_label"><input type="tel" name="phone" class="phone" placeholder="Телефон" /></label>
+				<button class="btn_brown" type="submit">Забронировать время</button>
 			</form>
 		</div>
 	</div>
@@ -142,18 +467,18 @@ source: UAEPP
 	<header>
 		<div class="container">
 			<div class="row top_head">
-				<div class="col-lg-2 top_logo">
+				<div class="col-sm-2 col-md-2 col-lg-2 top_logo">
 					<img src="img/logo.png" alt="">
 				</div>
-				<div class="col-lg-2 spec">
-					<span>Спецпредложения</span>
+				<div class="col-sm-3 col-md-2 col-lg-2 spec">
+					<a class="scrollto" href="#service"><span>Спецпредложения</span></a>
 				</div>
-				<div class="col-lg-5 top_phone">
+				<div class="col-sm-4 col-md-5 col-lg-5 top_phone">
 					<img src="img/phone_icon.png" alt="">
-					<a href="tel:+380445370645?call">044-537-06-45</a><a href="tel:+380666250909?call">066-625-09-09</a><a href="tel:+380986250909?call">098-625-09-09</a>
+					<a href="tel:+380445370645?call">044-537-06-45<div class="square"></div></a><a href="tel:+380666250909?call">066-625-09-09<div class="square"></div></a><a href="tel:+380986250909?call">098-625-09-09</a>
 				</div>
-				<div class="col-lg-3 top_btn">
-					<a href="" class="popup"><button>Заказать звонок</button></a>
+				<div class="col-sm-3 col-md-3 col-lg-3 top_btn">
+					<a href="#topFormWrapper" class="popup"><button>Заказать звонок</button></a>
 				</div>
 			</div>
 			<div class="row main_head">
@@ -161,11 +486,11 @@ source: UAEPP
 					<h1>Комплексный уход <br>за Вашим телом и красотой</h1>
 					<h2>Римские термы, ватсу, хаммамы, массажи и Beauty center на набережной Днепра</h2>
 				</div>
-				<div class="col-md-3 col-md-offset-3">
-					<a href="" class="popup"><button class="btn_brown">Подобрать Spa-услугу</button></a>
+				<div class="col-sm-4 col-sm-offset-2 col-md-3 col-md-offset-3">
+					<a href="#mainFormWrapper1" class="popup"><button class="btn_brown">Подобрать Spa-услугу</button></a>
 				</div>
-				<div class="col-md-3">
-					<a href="" class="popup"><button class="btn_white">Получить консультацию</button></a>
+				<div class="col-sm-4 col-md-3">
+					<a href="#mainFormWrapper2" class="popup"><button class="btn_white">Получить консультацию</button></a>
 				</div>
 			</div>
 		</div>
@@ -257,8 +582,8 @@ source: UAEPP
 						<li><span>Джакузи</span></li>
 						<li><span>Зона для тандемного массажа</span></li>
 					</ul>
-					<a href="" class="popup"><button class="btn_white col-md-6">Узнать подробнее</button></a>
-					<a href="" class="popup"><button class="btn_brown col-md-6">Акционное предложение</button></a>
+					<a href="#romeFormWrapper1" class="popup"><button class="btn_white col-md-5 col-lg-6">Узнать подробнее</button></a>
+					<a href="#romeFormWrapper2" class="popup"><button class="btn_brown col-md-5 col-lg-6">Акционное предложение</button></a>
 				</div>
 			</div>
 		</div>
@@ -283,8 +608,8 @@ source: UAEPP
 						<li><span>египетский</span></li>
 						<li><span>арабский</span></li>
 					</ul>
-					<a href="" class="popup"><button class="btn_white col-md-6">Узнать подробнее</button></a>
-					<a href="" class="popup"><button class="btn_brown col-md-6">Заказать услугу</button></a>
+					<a href="#hammamFormWrapper1" class="popup"><button class="btn_white col-md-6">Узнать подробнее</button></a>
+					<a href="#hammamFormWrapper2" class="popup"><button class="btn_brown col-md-6">Заказать услугу</button></a>
 				</div>
 			</div>
 		</div>
@@ -300,8 +625,8 @@ source: UAEPP
 					<h6>650 грн</h6>
 					<p>Эксклюзивный массаж в воде, сочетающий <br>популярный массаж шиатсу и целебные свойства<br> воды. Человек, поддерживаемый руками мастера, <br>передвигается в небольшом бассейне с помощью <br>плавных движений, которые напоминают танец <br>в воде.</p>
 					<p>Разнообразие технических элементов ватсу <br>в комплексе с воздействием теплой водной среды <br>приведет Вас в состояние глубокого расслабления, <br>снимет напряжение и способствует эмоциональной <br>разгрузке. Больше 40 стран используют ватсу <br>в качестве терапии в восстановительной медицине, <br>SPA и спорте.</p>
-					<a href="" class="popup"><button class="btn_white col-md-6">Узнать подробнее</button></a>
-					<a href="" class="popup"><button class="btn_brown col-md-6">Акционное предложение</button></a>
+					<a href="#vatsuFormWrapper1" class="popup"><button class="btn_white col-md-6">Узнать подробнее</button></a>
+					<a href="#vatsuFormWrapper2" class="popup"><button class="btn_brown col-md-6">Акционное предложение</button></a>
 				</div>
 			</div>
 		</div>
@@ -326,8 +651,8 @@ source: UAEPP
 					<p>Медовый, антицеллюлитный, гуаша, миопластический</p>
 					<span>Оздоровительные</span>
 					<p>Классический, восстанавливающий, спортивный, лимфодренажный, детский, массаж шейно-воротниковой зоны, массаж лица и головы, рук, ног, стоп.</p>
-					<a href="" class="popup"><button class="btn_white col-md-6">Узнать подробнее</button></a>
-					<a href="" class="popup"><button class="btn_brown col-md-6">Заказать услугу</button></a>
+					<a href="#massageFormWrapper1" class="popup"><button class="btn_white col-md-6">Узнать подробнее</button></a>
+					<a href="#massageFormWrapper2" class="popup"><button class="btn_brown col-md-6">Заказать услугу</button></a>
 				</div>
 			</div>
 		</div>
@@ -335,7 +660,7 @@ source: UAEPP
 	<!-- END massage -->
 
 	<!-- program -->
-	<section class="service program">
+	<section id="service" class="service program">
 		<div class="container">
 			<h3>Spa-программы</h3>
 			<div class="row">
@@ -345,7 +670,7 @@ source: UAEPP
 						<img src="img/program_1.jpg" alt="">
 						<p>Римские термы, <br>пилинг тела, <br>арома-релакс массаж, <br>угощение</p>
 						<span>2000 грн / 3 часа</span>
-						<a href="#" class="popup"><button class="btn_brown">Купить</button></a>
+						<a href="#romeFormWrapper3" class="popup"><button class="btn_brown">Забронировать время</button></a>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -354,7 +679,7 @@ source: UAEPP
 						<img src="img/program_2.jpg" alt="">
 						<p>Римские термы, парный массаж <br>на выбор (шоколадный, горячей <br>свечой, арома-релакс), <br>угощение</p>
 						<span>3100 грн / 3 часа</span>
-						<a href="#" class="popup"><button class="btn_brown">Купить</button></a>
+						<a href="#paradiseFormWrapper" class="popup"><button class="btn_brown">Забронировать время</button></a>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -364,7 +689,7 @@ source: UAEPP
 						<p>Бассейн или массаж Ватсу (на выбор), <br>массаж, спа-уход для рук, <br>угощение<br></p>
 						<p class="help_p">12</p>
 						<span>1480 грн / 3 часа</span>
-						<a href="#" class="popup"><button class="btn_brown">Купить</button></a>
+						<a href="#pregnantFormWrapper" class="popup"><button class="btn_brown">Забронировать время</button></a>
 					</div>
 				</div>
 			</div>
@@ -375,7 +700,7 @@ source: UAEPP
 						<img src="img/program_4.jpg" alt="">
 						<p>Римские термы, пилинг <br>и обертывание тела, массаж, уход <br>за кожей лица, укладка, макияж, <br>угощение</p>
 						<span>4400 грн / 5 часов</span>
-						<a href="#" class="popup"><button class="btn_brown">Купить</button></a>
+						<a href="#spaFormWrapper" class="popup"><button class="btn_brown">Забронировать время</button></a>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -385,7 +710,7 @@ source: UAEPP
 						<p>Прогрев в парной, пилинг тела, <br>уход за кожей лица, массаж лица, угощение</p>
 						<p class="help_p">12</p>
 						<span>800 грн / 2 часа</span>
-						<a href="#" class="popup"><button class="btn_brown">Купить</button></a>
+						<a href="#nirvanaFormWrapper" class="popup"><button class="btn_brown">Забронировать время</button></a>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -394,7 +719,7 @@ source: UAEPP
 						<img src="img/program_6.jpg" alt="">
 						<p>Прогрев в парной, массаж, <br>уход за кожей лица, массаж лица, <br>спа-уход для рук, легкая укладка, <br>угощение </p>
 						<span>1500 грн / 3,5 часа</span>
-						<a href="#" class="popup"><button class="btn_brown">Купить</button></a>
+						<a href="#idealFormWrapper" class="popup"><button class="btn_brown">Забронировать время</button></a>
 					</div>
 				</div>
 			</div>
@@ -412,7 +737,7 @@ source: UAEPP
 						<h6>Косметология</h6>
 						<img src="img/beauty_1.jpg" alt="">
 						<p>Чистка и уход за кожей лица <br>Пилинги<br> Лифтинговые программы <br>Озонотерапия <br>Мезотерапия, Филлеры</p>
-						<a href="#" class="popup"><button class="btn_brown">Узнать подробнее</button></a>
+						<a href="#cosmoFormWrapper" class="popup"><button class="btn_brown">Забронировать время</button></a>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -420,7 +745,7 @@ source: UAEPP
 						<h6>Ногтевой сервис</h6>
 						<img src="img/beauty_2.jpg" alt="">
 						<p>Маникюр <br>Педикюр (женский и мужской) <br>Покрытие шеллак <br>Наращивание ногтей <br>Спа-уходы </p>
-						<a href="#" class="popup"><button class="btn_brown">Узнать подробнее</button></a>
+						<a href="#nailsFormWrapper" class="popup"><button class="btn_brown">Забронировать время</button></a>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -428,7 +753,7 @@ source: UAEPP
 						<h6>Услуги стилиста</h6>
 						<img src="img/beauty_3.jpg" alt="">
 						<p>Стрижка <br>Окрашивание <br>Укладка <br>Лечение волос</p><p class="help_p">12</p>
-						<a href="#" class="popup"><button class="btn_brown">Узнать подробнее</button></a>
+						<a href="#styleFormWrapper" class="popup"><button class="btn_brown">Забронировать время</button></a>
 					</div>
 				</div>
 			</div>
@@ -438,7 +763,7 @@ source: UAEPP
 						<h6>Коррекция фигуры</h6>
 						<img src="img/beauty_4.jpg" alt="">
 						<p>Обертывания <br>Виски-пеленание <br>Массаж лепка <br>Моделирующие массажи</p>
-						<a href="#" class="popup"><button class="btn_brown">Узнать подробнее</button></a>
+						<a href="#correctFormWrapper" class="popup"><button class="btn_brown">Забронировать время</button></a>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -446,7 +771,7 @@ source: UAEPP
 						<h6>Макияж</h6>
 						<img src="img/beauty_5.jpg" alt="">
 						<p>Дневной <br>Вечерний <br>Свадебный</p><p class="help_p">12</p>
-						<a href="#" class="popup"><button class="btn_brown">Узнать подробнее</button></a>
+						<a href="#makeupFormWrapper" class="popup"><button class="btn_brown">Забронировать время</button></a>
 					</div>
 				</div>
 			</div>
@@ -486,9 +811,9 @@ source: UAEPP
 							<input type="hidden" name="project_name" value="Crystal Spa" />
 							<input type="hidden" name="form_subject" value="Заявка с лэндинга" />
 							<input type="hidden" name="whatform" value="Форма - Задать вопрос специалисту" />
-							<input type="text" name="name" placeholder="Имя" />
-							<input type="email" name="email" placeholder="E-mail" />
-							<input type="tel" name="phone" class="phone" placeholder="Телефон" />
+							<label class="border_label"><input type="text" name="name" placeholder="Имя" /></label>
+							<label class="border_label"><input type="email" name="email" placeholder="E-mail" /></label>
+							<label class="border_label"><input type="tel" name="phone" class="phone" placeholder="Телефон" /></label>
 							<button class="btn_brown" type="submit">Заказать сертификат</button>
 						</form>
 					</div>
@@ -497,6 +822,71 @@ source: UAEPP
 		</div>
 	</section>
 	<!-- END cert -->
+
+	<!-- photo -->
+	<section class="photo">
+		<div class="container">
+			<h3>Сочетание изысканного вкуса <br>и комфорта в одном салоне</h3>
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="photo_slider_wrapper">
+						<div class="photo_slider">
+							<div class="photo_item">
+								<img src="img/photo_1.jpg" alt="">
+								<span>Термальная зона</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END photo -->
+
+	<!-- review -->
+	<section class="review">
+		<div class="container">
+			<h3>Нас рекомендуют друзьям</h3>
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="review_slider_wrapper">
+						<div class="dot hidden"></div>
+						<div class="review_prev"></div>
+						<div class="review_next"></div>
+						<div class="review_slider">
+							<img src="img/review_1.jpg" alt="">
+							<img src="img/review_1.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END review -->
+
+	<!-- contact -->
+	<section class="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h3>Наши контакты</h3>
+					<p>г. Киев, <br>ул. Оболонская Набережная, 17</p>
+					<p>
+						<a href="tel:+380445370645?call">044-537-06-45</a><br>
+						<a href="tel:+380666250909?call">066-625-09-09</a><br>
+						<a href="tel:+380986250909?call">098-625-09-09</a>
+					</p>
+					<p>
+						<a href="mailto:crystalspacenter@gmail.com">crystalspacenter@gmail.com</a>
+					</p>
+				</div>
+				<div class="col-md-8">
+					<img src="img/map.jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END contacts -->
 	<footer>
 		<div class="container">
 			<div class="row">
@@ -505,7 +895,7 @@ source: UAEPP
 				</div>
 				<div class="col-sm-6 col-xs-12 copyright">
 					<span><a class="popup" href="#politics">Политика конфиденциальности</a></span>
-					<p>&copy; <script type="text/javascript">var mdate = new Date(); document.write(mdate.getFullYear());</script> "". Все права защищены</p>
+					<p>&copy; <script type="text/javascript">var mdate = new Date(); document.write(mdate.getFullYear());</script> "Crystal Spa". Все права защищены</p>
 				</div>
 				<div class="col-sm-3 col-xs-12 made_by">
 					<p>Проект разработан</p>

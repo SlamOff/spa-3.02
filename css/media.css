@@ -2,7 +2,90 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1199px) {
-
+	html {
+		font-size: 8px;
+	}
+	.top_logo img {
+		width: 100%;
+	}
+	.top_btn {
+		padding-top: .7rem;
+	}
+	.top_phone img {
+		top: 20px;
+	}
+	.about_next {
+		right: -50px;
+	}
+	.about_prev {
+		left: -50px;
+	}
+	.service button.btn_brown {
+		margin-top: 20px;
+	}
+	.program img, .beauty img {
+		width: 80%;
+	}
+	.program p, .beauty p {
+		margin-bottom: 0;
+	}
+	section {
+		min-height: 1px!important;
+		height: auto!important;
+		padding-bottom: 8rem!important;
+	}
+	.square {
+		width: 7px;
+		height: 7px;
+		top: 3px;
+		right: -19px;
+	}
+	.about h3 {
+		margin-bottom: 8rem;
+	}
+	.crystal h3 {
+		margin-top: 0;
+	}
+	.crystal_wrapper .crystal_item:first-of-type img {
+		margin-bottom: 3.5rem;
+	}
+	.service button {
+		margin-top: 30px;
+	}
+	.cert h3 {
+		font-size: 5rem;
+		line-height: 5.5rem;
+	}
+	.cert h4 {
+		font-size: 3rem;
+	}
+	.cert h5 {
+		font-size: 2.5rem;
+		line-height: 3.2rem;	
+		margin: 3.5rem 0;
+	}
+	.cert .left_cert p {
+		font-size: 1.8rem;
+	}
+	.cert img {
+		left: -293px;
+		width: 130%;
+		top: -61px;
+	}
+	.photo img {
+		width: 80%;
+		display: block;
+		margin: 0 auto;
+	}
+	.review h3 {
+		margin-top: 0;
+	}
+	.review_prev, .review_next {
+		top: 36%;
+	}
+	.slick-dots {
+		bottom: -65px!important;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -10,6 +93,48 @@
 	footer .row div  {
 		text-align: center;
 	}
+	section {
+		padding: 40px 0;
+	}
+	.top_phone {
+		padding-top: 1rem;
+		text-align: center;
+	}
+	.top_phone a {
+		display: block;
+	}
+	.square {
+		display: none;
+	}
+	.top_phone img {
+		left: 60px;
+	}
+	.spec {
+		text-align: right;
+	}
+	header {
+		min-height: 66rem;
+	}
+	.crystal_wrapper img {
+		width: 70%;
+	}
+	.about_next {
+		right: 30%;
+		top: auto;
+		bottom: -44px;
+	}
+	.about_prev {
+		left: 30%;
+		top: auto;
+		bottom: -44px;
+	}
+	.about h3 {
+		margin-bottom: 6rem;
+	}
+	.about {
+		padding-bottom: 6rem;
+	}
+
 }
 
 /* Small Devices, Tablets */
