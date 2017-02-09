@@ -97,11 +97,12 @@
 		padding: 40px 0;
 	}
 	.top_phone {
-		padding-top: 1rem;
+		padding-top: 0;
 		text-align: center;
 	}
 	.top_phone a {
 		display: block;
+		line-height: 2.5rem;
 	}
 	.square {
 		display: none;
@@ -134,13 +135,88 @@
 	.about {
 		padding-bottom: 6rem;
 	}
-
+	.beauty .col-md-4:nth-of-type(3) .help_p {
+		display: none;
+	}
+	.video {
+		padding-top: 6rem;
+	}
+	.cert img {
+		left: -136px;
+		width: 80%;
+		top: 25px;
+	}
+	.form_wrapper h6 {
+		margin-top: 0;
+	}
+	.form_wrapper {
+		padding: 3rem 4rem;
+	}
+	.program, .beauty {
+		background-repeat: repeat-y;
+	}
+	footer p {
+		font-size: 1.8rem;
+	}
+	.review h3 {
+		margin-bottom: 6rem;
+	}
+	.review_prev, .review_next {
+		top: auto;
+		bottom: -80px;
+	}
+	.review {
+		padding-bottom: 14rem!important;
+	}
+	.review_prev {
+		right: 70%;
+		left: auto;
+	}
+	.review_next {
+		left: 70%;
+		right: auto;
+	}
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
 	section {
 		min-height: 1px;
+	}
+	.contact {
+		text-align: center;
+	}
+	.contact h3 {
+		text-align: center;
+	}
+	.review {
+		display: none;
+	}
+	.photo img {
+		width: 100%;
+	}
+	.top_btn {
+		display: none;
+	}
+	.top_logo img {
+		max-width: 120px;
+	}
+	.top_phone {
+		padding-top: 2rem;
+	}
+	.top_phone img {
+		top: 35px;
+	}
+	.spec {
+		text-align: center;
+		font-size: 2rem;
+		padding-top: 4rem;
+	}
+	header button {
+		margin-bottom: 20px;
+	}
+	h2 {
+		margin-bottom: 6rem;
 	}
 }
 

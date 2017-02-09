@@ -501,6 +501,9 @@ section.program h3, section.beauty h3 {
 	padding-top: 6.7rem;
 	padding-bottom: 5rem;
 }
+.program .col-md-4, .beauty .col-md-4 {
+	margin-bottom: 3rem;
+}
 .program h3 {
 	margin-top: 0;
 }
@@ -546,6 +549,12 @@ section.program h3, section.beauty h3 {
 	width: 100%;
 	top: 36px;
 }
+a.popup {
+	display: block;
+}
+/*.program_item p br, .beauty_item p br {
+	display: none;
+}*/
 .program_item, .beauty_item {
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
